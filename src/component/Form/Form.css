@@ -1,0 +1,38 @@
+.input-container {
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+}
+.icon {
+  background: white;
+  color: gray;
+  padding: 10px;
+  min-width: 35px;
+  text-align: center;
+}
+.no-border {
+  border: none;
+  outline: none;
+  border-radius: 0px;
+}
+.login-btn {
+  text-align: left;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  background-color: #599da6;
+  border: none;
+  margin-top: 20px;
+}
+.login-btn:hover {
+  background-color: #599da6;
+  border: 1px solid white;
+}
+.logo {
+  background: url("../../../public/logo_readpeak.png") no-repeat;
+  height: 109px;
+  width: 247px;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}

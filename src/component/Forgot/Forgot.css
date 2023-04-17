@@ -1,0 +1,70 @@
+.forgot-password-container {
+  position: absolute;
+  bottom: 45px;
+  left: 45px;
+}
+
+.icon {
+  padding: 10px;
+  background: white;
+  color: gray;
+  min-width: 35px;
+  text-align: center;
+}
+
+.forget-password-h {
+  font: normal normal bold 22px/24px Raleway;
+  letter-spacing: 0px;
+  color: #589da6;
+}
+
+.forget-password-p {
+  color: white;
+  text-align: left;
+  font: normal normal normal 18px/24px Raleway;
+  letter-spacing: 0px;
+  margin-top: 20px;
+}
+
+.forget-password-l {
+  color: #589da6;
+  text-decoration: none;
+  font: normal normal bold 20px/24px Raleway;
+}
+.desktop-forget-password {
+  display: none;
+}
+
+.mobile-forget-password {
+  display: none;
+  margin-top: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+@media all and (max-height: 600px) {
+  .bg {
+    min-height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .new-login-form {
+    padding: 25px 20px;
+    width: 100%;
+    margin: 0 !important;
+    margin-top: 25px !important;
+  }
+  .input.text.required,
+  .input.password.required {
+    width: 100%;
+  }
+  .input-width {
+    width: 100%;
+  }
+  .mobile-forget-password {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+  }
+}
